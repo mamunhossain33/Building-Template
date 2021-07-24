@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,200;1,300;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    color: #696969;
+    font-size: 13px;
+}
+.color-primary{
+    color: #fab702;
+}
+.bgcolor{
+   background-color: #fab702;
+}
+.btn-logo{
+    background-color: #fab702;
+    color: white;
+    font-weight: 600;
+    padding: 14px 42px;
+    border-radius: 0;
+    outline: none;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.btn-logo-reverse{
+    background-color: white;
+    color:#fab702;
+    font-weight: 600;
+    padding: 14px 42px;
+    border-radius: 0;
+}
+.btn-logo:hover{
+    background-color: black;
+    color:#fab702;
+    
+}
+.sec-title{
+    font-size: 34px;
+}
+.sec-text{
+    max-width: 735px;
+}
+.pd-70{
+    padding: 70px 0;
+}
+
+/* Global end */
+/* topbar style start */
+.top-bar{
+    background-color: #f5f5f5;
+    color: #696969;
+}
+.rotet-45 i{
+    transform: rotate(90deg);
+}
+/* topbar End start */
+/* Navbar style start here */
+.navbar-nav .nav-item {
+    margin-left: 5px;
+}
+.nav-item.nav-link:hover{
+    color: #fab702;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+.nav-item a:hover{
+    color: #fab702 !important;
+}
+/* Navbar style End here */
+/* Banner Section Start here  */
+.banner-wrapper{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 700px;
+}
+.banner h1{
+    font-size: 40px;
+    color:white !important;
+}
+.banner p{
+    max-width: 550px;
+    line-height: 1.7;
+    color: white !important;
+    font-size: 17px !important;
+}
+/* Banner Section End here */
+/* Services Section Start here  */
+.sec-title{
+    font-weight: 600;
+}
+.service-item h3 ,.promo-title{
+    font-size: 18px;
+    color: black;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+   
+}
+.service-item h3:hover,
+.promo-title:hover,
+.service-item a:hover{
+    color: #fab702;
+    transition: all .5s;
+}
+.service-item a{
+    color:  #696969;
+    text-decoration: none;
+}
+/* Services Section End here */
+/* Promo Wrapper Section start here */
+.video-wrapper
+{
+    display: block;
+}
+.promo-item{
+    padding: 0 15px;
+}
+.promo-content{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+.promo-title{
+    font-size: 18px;
+}
+/* Promo Wrapper Section End here */
+
+/* Future Section Start here  */
+.feature-wraper{
+    padding-top: 70px;
+}
+.overlay h4{
+    font-size: 12px;
+    font-weight: 600;
+}
+.element-item{
+    width: 100%;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    padding:30px 20px;
+    background-color: antiquewhite;
+    bottom:-100px;
+    left: 0;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.element-item:hover .overlay{
+    bottom: 0;
+    font-size: 20px;
+}
+.icon-overlay i{
+    width: 35px;
+    height: 35px;
+    background-color: #fab702;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+   
+}
+.overlay-future-title {
+    position: relative;
+}
+.overlay-future-title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    bottom: -15px;
+    left: 0;
+}
+.filter-button-group button{
+    background-color: transparent;
+    border: none;
+    margin: 5px 5px;
+    transition: .3s;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    
+}
+.filter-button-group button:hover{
+    color: #fab702;
+    border-bottom: 2px solid #fab702;
+}
+/* Future Section End Here */
+
+ /* Customar section start  */
+.testi-content{
+    background-color: rgb(226, 226, 226);
+    color: #fab702;
+}
+.companny-logo{
+    padding-top: 59px;
+}
+
+ /* Customar section End  */
+/* Counterup section start here */
+.counter-item h2{
+    font-size: 2.1rem;
+}
+/* Counterup section start here */
+/* Contact Section start here */
+.contact-wrapper{
+    background-color: #f5f5f5;
+    padding: 70px;
+}
+.contact-body{
+    background-color: whitesmoke;
+    border-left: 2px solid #fab702;
+}
+/* Contact Section End here */
+.blog-item img{
+    width: 100%;
+   
+}
+.recenr-news1  img{
+    border-radius: 50%;
+}
+/* Feature news section start here */
+.blog-wrapper{
+    padding-bottom: 90px;
+}
+.service-item .active{
+    color: #fab702;
+    position: relative;
+}
+.active::before{
+    content:"" ;
+    width: 40px;
+    height: 2px;
+    background-color: #fab702;
+    top:20px;
+    left: 0;
+    position: absolute;
+}
+
+/* Feature news section End here */
+/* Footer Section Start here */
+.footer-item {
+    padding: 45px 0px;
+    color: #fab702;
+}
+.footer-item p{
+    color: #c4c4c4;
+}
+.contact-info{
+    line-height: 1.7;
+}
+.phone i{
+    transform: translateY(90deg);
+}
+.ofrm-controls {
+    outline: none;
+    width: 135px;
+    font-size: 12px;
+    padding: 9px 14px;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+}
+.submit {
+    background-color: rgb(250, 183, 2);
+    color: white;
+    font-size: 12px;
+    outline: none;
+    padding: 9px 14px;
+    border: none;
+    margin-left: -5px;
+    border-radius: 0px 2px 2px 0px;
+}
+.input-wrapper {
+    width: 201px;
+}
+/* Footer Section END header */
+/* Copy write section start  */
+.copyWrite-wrapper{
+    background-color: rgb(48, 108, 126);
+    padding: 25px 0px;
+}
+.copyWrite-wrapper p{
+    color: rgb(173, 173, 173);
+}
+.right-item ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 11px;
+    align-items: center;
+
+}
+.right-item ul li a:hover{
+    color: #fab702;
+}
+.right-item li a{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+.recenr-news1{
+    display: flex;
+    
+}
+.recenr-news1 p{
+    padding-left: 5px;
+    text-align: left;
+}
+/* Copy write section End  */
+
+
+
+
+
